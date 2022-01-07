@@ -17,5 +17,6 @@ code {
 @tailwind utilities;
 
 body {
-  background: #F2D57E;
+  /* background: #F2D57E; */
+  background: #D9D6D0;
 }
