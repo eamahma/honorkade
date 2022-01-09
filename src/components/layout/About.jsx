@@ -2,10 +2,10 @@ import React from "react";
 
 function About() {
   return (
-    <div class="flex">
-    <div class="card card-bordered">
+    <div class="flex items-center">
+    <div class="card glass card-bordered backdrop-blur-lg">
       <figure>
-        <img src="/assets/butterfly-xsm.jpg" alt="myself" class="h-80"/>
+        <img src="/assets/butterfly-sm.jpg" alt="myself" class="max-w-prose"/>
       </figure>
       <div class="card-body">
         <h2 class="card-title">Mitra Soltani</h2>
@@ -13,13 +13,13 @@ function About() {
           The beginning of my artistic career goes back to my early childhood. As a kid, I was always fascinated with the beauty and aesthetics of the world around me. My artworks were always praised by my family and teachers which invoked my passion for creating art and lead me to pursue a career as an artist. 
         </p>
         <p>
-          I graduated with a (bachelor-master?) degree in graphic orientation art from the University of Tehran (?) in Iran. And started my practice as a graphic designer, working on illustrations and sculptures. However, my love for painting from my early years remained and it brought me to start painting again as a side project. 
+          I graduated with a BA in graphic design back home and launched my career as a graphic designer and continued painting as hobby.
         </p>
         <p> 
-          Over the years my fondness for painting grew, and the side projects turned into a full-time career. Today, I have devoted all my days to discovering and teaching myself new techniques and working with different mediums. Experience and the love for my work inspire me to create reflections of nature and the people around me in realistic portraits and exotic and sometimes soft landscapes.
+          Over the years my passion for painting grew, and the painting as hobby turned into a full-time career. Today, I have devoted all my time to discover and learn new techniques and working with different mediums. Experience and the love for my work inspire me to create reflections of nature and the people around me in realistic portraits and exotic and sometimes soft landscapes.
         </p>
         <p>
-          I am now living in Michigan, US with my family. Their support and appreciation for my work allow me to enjoy and continue making art that has brought me inexpressible joy.
+          I am now living in Michigan, US with my family. Their support and appreciation for my work allow me to enjoy and continue painting that has brought me inexpressible joy.
         </p>
       </div>
     </div>
