@@ -20,3 +20,7 @@ body {
   /* background: #F2D57E; */
   /* background: #D9D6D0; */
 }
+
+img {
+  object-fit:scale-down;
+}
