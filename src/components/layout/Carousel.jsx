@@ -2,7 +2,7 @@ import React from 'react'
 
 function Carousel() {
   return (
-<div class="max-w-lg p-4 space-x-4 carousel carousel-center bg-neutral rounded-box">
+<div class="max-w-lg p-4 space-x-4 carousel carousel-center">
   <div class="w-full carousel-item">
     <img src="/assets/kids.jpeg" class="rounded-box" alt="kids"/>
   </div> 

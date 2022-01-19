@@ -22,5 +22,5 @@ body {
 }
 
 img {
-  object-fit:scale-down;
+  object-fit: cover;
 }
