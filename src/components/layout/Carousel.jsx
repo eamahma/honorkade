@@ -2,7 +2,7 @@ import React from 'react'
 
 function Carousel() {
   return (
-<div class="max-w-lg p-4 space-x-4 carousel carousel-center">
+<div class="carousel carousel-center">
   <div class="w-full carousel-item">
     {/* <img src="/assets/kids.jpeg" class="rounded-box" alt="kids"/> */}
     <img
@@ -112,7 +112,7 @@ function Carousel() {
       /assets/waves-pastel_kohqnm_c_scale,w_1046.png 1046w,
       /assets/waves-pastel_kohqnm_c_scale,w_1200.png 1200w"
       src="/assets/waves-pastel_kohqnm_c_scale,w_1200.png"
-      alt="waves-pastel">
+      alt="">
     </img>    
   </div> 
   <div class="w-full carousel-item">
