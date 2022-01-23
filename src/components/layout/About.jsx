@@ -5,7 +5,18 @@ function About() {
     <div class="flex items-center">
     <div class="card glass card-bordered backdrop-blur-lg">
       <figure>
-        <img src="/assets/butterfly-sm.jpg" alt="myself" class="max-w-prose"/>
+        {/* <img src="/assets/butterfly-sm.jpg" alt="myself" class="max-w-prose"/> */}
+        <img
+          sizes="(max-width: 1200px) 100vw, 1200px"
+          srcset="
+          /assets/my-pic_uvhz3c_c_scale,w_200.png 200w,
+          /assets/my-pic_uvhz3c_c_scale,w_546.png 546w,
+          /assets/my-pic_uvhz3c_c_scale,w_829.png 829w,
+          /assets/my-pic_uvhz3c_c_scale,w_1028.png 1028w,
+          /assets/my-pic_uvhz3c_c_scale,w_1200.png 1200w"
+          src="/assets/my-pic_uvhz3c_c_scale,w_1200.png"
+          alt="my-pic">
+        </img>
       </figure>
       <div class="card-body">
         <h2 class="card-title">Mitra Soltani</h2>
